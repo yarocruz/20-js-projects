@@ -48,6 +48,15 @@ button:disabled {
   filter: brightness(30%);
 }
 
+p {
+  background-color: #333333;
+  padding: 15px;
+  color: #fff;
+
+  font-size: 32px;
+  font-weight: bold;
+}
+
 /* Media Query: Tablet or Smaller */
 
 @media screen and (max-width: 100px) {

@@ -5,8 +5,8 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 ## Projects 
 - [x] [Quote Generator](https://yarocruz.github.io/20-js-projects/quote-generator/)
 - [x] [Infinite Scroll](https://yarocruz.github.io/20-js-projects/infinity-scroll/)
-- [ ] [Picture in Picture](#)
-- [ ] [Joke Teller](#)
+- [x] [Picture in Picture](#)
+- [x] [Joke Teller](#)
 - [ ] [Light and Dark Mode](#)
 - [ ] [Animated Template](#)
 - [ ] [Navigation Nation](#)

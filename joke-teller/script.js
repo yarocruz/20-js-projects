@@ -1,5 +1,9 @@
 const button = document.getElementById('button')
 const audioElement = document.getElementById('audio')
+const jokeParagraph = document.querySelector('.joke')
+const setupParagraph = document.querySelector('.setup')
+const deliveryParagraph = document.querySelector('.delivery')
+
 
 // Disable / Enable Button
 function toggleBtn() {
@@ -23,14 +27,19 @@ function tellMe(joke) {
 // Get Jokes from Joke API
 async function getJokes() {
     let joke = ''
+    //deliveryParagraph.textContent = null
     const apiUrl = "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
     try {
         const response = await fetch(apiUrl)
         const data = await response.json()
         if (data.setup) {
             joke = `${data.setup} ... ${data.delivery}`
+            //setupParagraph.textContent = data.setup
+
+            //deliveryParagraph.textContent = data.delivery
         } else {
             joke = data.joke
+            //jokeParagraph.textContent = data.joke
         }
         // Text-to-Speech
         tellMe(joke)

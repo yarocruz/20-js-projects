@@ -7,7 +7,7 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 - [x] [Infinite Scroll](https://yarocruz.github.io/20-js-projects/infinity-scroll/)
 - [x] [Picture in Picture](https://yarocruz.github.io/20-js-projects/picture-in-picture/)
 - [x] [Joke Teller](https://yarocruz.github.io/20-js-projects/joke-teller/)
-- [ ] [Light and Dark Mode](#)
+- [x] [Light and Dark Mode](https://yarocruz.github.io/20-js-projects/light-dark-mode)
 - [ ] [Animated Template](#)
 - [ ] [Navigation Nation](#)
 - [ ] [Music Player](#)

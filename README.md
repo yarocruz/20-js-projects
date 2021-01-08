@@ -8,7 +8,7 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 - [x] [Picture in Picture](https://yarocruz.github.io/20-js-projects/picture-in-picture/)
 - [x] [Joke Teller](https://yarocruz.github.io/20-js-projects/joke-teller/)
 - [x] [Light and Dark Mode](https://yarocruz.github.io/20-js-projects/light-dark-mode)
-- [ ] [Animated Template](#)
+- [x] [Animated Template](https://yarocruz.github.io/20-js-projects/animated-template)
 - [ ] [Navigation Nation](#)
 - [ ] [Music Player](#)
 - [ ] [Custom Countdown](#)

@@ -9,7 +9,7 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 - [x] [Joke Teller](https://yarocruz.github.io/20-js-projects/joke-teller/)
 - [x] [Light and Dark Mode](https://yarocruz.github.io/20-js-projects/light-dark-mode)
 - [x] [Animated Template](https://yarocruz.github.io/20-js-projects/animated-template)
-- [ ] [Navigation Nation](#)
+- [x] [Navigation Nation](https://yarocruz.github.io/20-js-projects/nagivation-nation)
 - [ ] [Music Player](#)
 - [ ] [Custom Countdown](#)
 - [ ] [Book Keeper](#)

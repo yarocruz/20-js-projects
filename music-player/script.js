@@ -1,9 +1,11 @@
 const image = document.querySelector('img')
 const title = document.getElementById('title')
 const artist = document.getElementById('artist')
-const music = document.querySelector('audio')
+const music = document.getElementById('audio')
 const progressContainer = document.getElementById('progress-container')
 const progress = document.getElementById('progress')
+const currentTimeEl = document.getElementById('current-time')
+const durationEl = document.getElementById('duration')
 const prevBtn = document.getElementById('prev')
 const playBtn = document.getElementById('play')
 const nextBtn = document.getElementById('next')
@@ -89,13 +91,34 @@ loadSong(songs[songIndex])
 
 // Update Progress Bar & Time
 function updateProgressBar(e) {
-    console.log(e)
     if (isPlaying) {
+        console.log(e)
         const { duration, currentTime } = e.target
-        console.log(duration, currentTime)
         // Update progress bar
         const progressPercent = (currentTime / duration ) * 100
-        console.log(progressPercent)
+       progress.style.width = `${progressPercent}%`
+        // Calculate display for duration
+        const durationMinutes = Math.floor(duration / 60)
+        console.log('minutes', durationMinutes)
+        let durationSeconds = Math.floor(duration % 60)
+        if (durationSeconds < 10) {
+            durationSeconds = `0${durationSeconds}`
+        }
+        console.log('seconds', durationSeconds)
+
+       // Delay switching duration Element to avoid NaN
+       if (durationSeconds) {
+           durationEl.textContent = `${durationMinutes}:${durationSeconds}`
+       }
+        // Calculate display for current time
+        const currentMinutes = Math.floor( parseInt(currentTime) / 60)
+        console.log('minutes', currentMinutes)
+        let currentSeconds = Math.floor( parseInt(currentTime) % 60)
+        if (currentSeconds < 10) {
+            currentSeconds = `0${currentSeconds}`
+        }
+        console.log('seconds', currentSeconds)
+        currentTimeEl.textContent = `${currentMinutes}:${currentSeconds}`
     }
 }
 

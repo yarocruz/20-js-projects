@@ -4,8 +4,9 @@ const dateEl = document.getElementById('date-picker')
 
 let countdownTitle = ''
 let countdownDate = ''
-let countdownValue = Date
+let countdownValue = new Date
 let countdownActive
+let saveCountdown
 
 const second = 1000 // milliseconds
 const minute = second * 60
@@ -31,13 +32,11 @@ function updateDOM() {
 
         const now = new Date().getTime()
         const distance = countdownValue - now
-        console.log('distance', distance)
 
         const days = Math.floor(distance / day)
         const hours = Math.floor((distance % day) / hour)
         const minutes = Math.floor((distance % hour) / minute)
         const seconds = Math.floor((distance % minute) / second)
-        console.log(days, hours, minutes, seconds)
 
         // Hide input
         inputContainer.hidden = true;
@@ -65,13 +64,17 @@ function updateCountdown(e) {
     e.preventDefault()
     countdownTitle = e.target[0].value
     countdownDate = e.target[1].value
-    console.log(countdownTitle, countdownDate)
+    saveCountdown = {
+        title: countdownTitle,
+        date: countdownDate
+    }
+    console.log(saveCountdown)
+    localStorage.setItem('countdown', JSON.stringify(saveCountdown))
     // Get number version of current Date, updateDOM
    if (countdownDate === '') {
        alert('Please select a date for the countdown')
    } else {
        countdownValue = new Date(countdownDate).getTime()
-       console.log('countdown value:', countdownValue)
        updateDOM()
    }
 }
@@ -85,8 +88,23 @@ function reset() {
     // Reset values
     countdownTitle = ''
     countdownDate = ''
+    localStorage.removeItem('countdown')
+}
+
+function restorePreviousCountDown(){
+    if (localStorage.getItem('countdown')) {
+        inputContainer.hidden = true
+        saveCountdown = JSON.parse(localStorage.getItem('countdown'))
+        countdownTitle = saveCountdown.title
+        countdownDate = saveCountdown.date
+        countdownValue = new Date(countdownDate).getTime()
+        updateDOM()
+    }
 }
 
 countdownForm.addEventListener('submit', updateCountdown)
 countdownBtn.addEventListener('click', reset)
 completeElBtn.addEventListener('click', reset)
+
+// On load, check localStorage
+restorePreviousCountDown()

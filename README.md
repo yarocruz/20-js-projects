@@ -12,7 +12,7 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 - [x] [Navigation Nation](https://yarocruz.github.io/20-js-projects/nagivation-nation)
 - [x] [Music Player](https://yarocruz.github.io/20-js-projects/music-player)
 - [x] [Custom Countdown](https://yarocruz.github.io/20-js-projects/custom-countdown)
-- [ ] [Book Keeper](#)
+- [x] [Book Keeper](https://yarocruz.github.io/20-js-projects/book-keeper)
 - [ ] [Video Player](#)
 - [ ] [Form Validator](#)
 - [ ] [Spock Rock Game](#)

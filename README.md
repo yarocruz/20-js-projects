@@ -13,7 +13,7 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 - [x] [Music Player](https://yarocruz.github.io/20-js-projects/music-player)
 - [x] [Custom Countdown](https://yarocruz.github.io/20-js-projects/custom-countdown)
 - [x] [Book Keeper](https://yarocruz.github.io/20-js-projects/book-keeper)
-- [ ] [Video Player](#)
+- [x] [Video Player](https://yarocruz.github.io/20-js-projects/video-player)
 - [ ] [Form Validator](#)
 - [ ] [Spock Rock Game](#)
 - [ ] [Nasa Apod](#)

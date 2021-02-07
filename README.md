@@ -14,7 +14,7 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 - [x] [Custom Countdown](https://yarocruz.github.io/20-js-projects/custom-countdown)
 - [x] [Book Keeper](https://yarocruz.github.io/20-js-projects/book-keeper)
 - [x] [Video Player](https://yarocruz.github.io/20-js-projects/video-player)
-- [ ] [Form Validator](#)
+- [x] [Form Validator](https://yarocruz.github.io/20-js-projects/form-validator)
 - [ ] [Spock Rock Game](#)
 - [ ] [Nasa Apod](#)
 - [ ] [Math Sprint Game](#)

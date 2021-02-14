@@ -156,5 +156,4 @@ function select(playerChoice) {
 }
 
 resetAll()
-startConfetti()
 

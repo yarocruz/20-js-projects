@@ -15,7 +15,7 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 - [x] [Book Keeper](https://yarocruz.github.io/20-js-projects/book-keeper)
 - [x] [Video Player](https://yarocruz.github.io/20-js-projects/video-player)
 - [x] [Form Validator](https://yarocruz.github.io/20-js-projects/form-validator)
-- [ ] [Spock Rock Game](#)
+- [x] [Spock Rock Game](https://yarocruz.github.io/20-js-projects/spock-rock-game)
 - [ ] [Nasa Apod](#)
 - [ ] [Math Sprint Game](#)
 - [ ] [Drag and Drop](#)

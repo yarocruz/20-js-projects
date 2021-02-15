@@ -54,6 +54,8 @@ function resetAll() {
   resetSelected()
 }
 
+window.resetAll = resetAll;
+
 //
 function computerRandomChoice() {
   const computerChoiceNumber = Math.random()
@@ -155,5 +157,8 @@ function select(playerChoice) {
   }
 }
 
+window.select = select;
+
 resetAll()
+
 

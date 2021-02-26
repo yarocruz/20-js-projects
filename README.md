@@ -16,7 +16,7 @@ This is just me following [Andre Neagoie's and Jacinto Wong's course](https://ww
 - [x] [Video Player](https://yarocruz.github.io/20-js-projects/video-player)
 - [x] [Form Validator](https://yarocruz.github.io/20-js-projects/form-validator)
 - [x] [Spock Rock Game](https://yarocruz.github.io/20-js-projects/spock-rock-game)
-- [ ] [Nasa Apod](#)
+- [x] [Nasa Apod](https://yarocruz.github.io/20-js-projects/nasa-api-pictures)
 - [ ] [Math Sprint Game](#)
 - [ ] [Drag and Drop](#)
 - [ ] [Calculator](#)
